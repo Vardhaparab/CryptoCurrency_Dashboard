@@ -3,6 +3,7 @@ Crypto Dashboard
 A responsive cryptocurrency dashboard built with React. It shows live market data from the CoinGecko API, lets you search the listed coins, and displays a price-history chart for any selected coin.
 
 Live demo (Netlify): https://chimerical-choux-5d931d.netlify.app/ 
+
 Repository: https://github.com/Vardhaparab/CryptoCurrency_Dashboard
 
 Features
@@ -23,12 +24,19 @@ Vite
 Tailwind CSS
 Axios
 Recharts
-Project Structure
+
+
+Project Structure:
+
 src/
-├── components/     # CryptoCard, CryptoList, CryptoChart, Searchbar, ThemeToggle, Loading, ErrorMessage
-├── hooks/          # useCryptos (fetching, auto-refresh, countdown)
-├── services/       # cryptoApi.js (API calls)
-├── utils/          # format.js (currency formatting)
+├── components/    
+# CryptoCard, CryptoList, CryptoChart, Searchbar, ThemeToggle, Loading, ErrorMessage
+├── hooks/         
+# useCryptos (fetching, auto-refresh, countdown)
+├── services/      
+# cryptoApi.js (API calls)
+├── utils/         
+# format.js (currency formatting)
 ├── App.jsx
 ├── main.jsx
 └── index.css
