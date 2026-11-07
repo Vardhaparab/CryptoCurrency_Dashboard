@@ -29,14 +29,10 @@ Recharts
 Project Structure:
 
 src/
-├── components/    
-# CryptoCard, CryptoList, CryptoChart, Searchbar, ThemeToggle, Loading, ErrorMessage
-├── hooks/         
-# useCryptos (fetching, auto-refresh, countdown)
-├── services/      
-# cryptoApi.js (API calls)
-├── utils/         
-# format.js (currency formatting)
+├── components/    # CryptoCard, CryptoList, CryptoChart, Searchbar, ThemeToggle, Loading, ErrorMessage
+├── hooks/         # useCryptos (fetching, auto-refresh, countdown)
+├── services/      # cryptoApi.js (API calls)
+├── utils/         # format.js (currency formatting)
 ├── App.jsx
 ├── main.jsx
 └── index.css
